@@ -100,5 +100,3 @@ java -cp out MiniProjectBag.Main
 결제 금액 : 20000원
 === 감사합니다 ===
 
-📜 라이선스
-이 프로젝트는 MIT License 하에 배포됩니다.
