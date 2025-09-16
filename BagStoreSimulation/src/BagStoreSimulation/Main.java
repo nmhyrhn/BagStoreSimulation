@@ -39,7 +39,7 @@ public class Main {
         String material = BagMaterial.getMaterial(materialChoice);
         int materialPrice = BagMaterial.getPrice(material);
 
-        System.out.println(material + "은 " + materialPrice + "원 입니다.");
+        System.out.println(material + " 재질은 " + materialPrice + "원 입니다.");
         System.out.println("");
 
         // 총 가격 합산
