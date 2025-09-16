@@ -1,6 +1,4 @@
-package src.BagStoreSimuiation.Bag;
-
-import java.util.*;
+package src.BagStoreSimulation.Bag;
 
 public abstract class BagSize {
     protected int width;

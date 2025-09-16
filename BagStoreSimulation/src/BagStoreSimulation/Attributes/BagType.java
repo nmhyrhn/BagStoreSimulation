@@ -1,9 +1,11 @@
-package src.BagStoreSimuiation.Attributes;
+package src.BagStoreSimulation.Attributes;
 
 import java.util.*;
 
 public class BagType {
+    // 제품명 매핑, hashmap은 중복제거
     private static final Map<Integer, String> typeMap = new HashMap<>();
+    // 제품 가격 매핑
     private static final Map<String, Integer> priceMap = new HashMap<>();
 
     static {
@@ -12,6 +14,7 @@ public class BagType {
         typeMap.put(3, "백팩");
         typeMap.put(4, "숄더백");
         typeMap.put(5, "클러치");
+        //switch로 선택할거기에 키값을 숫자로 줌
 
         priceMap.put("토트백", 15000);
         priceMap.put("크로스백", 20000);
@@ -20,10 +23,13 @@ public class BagType {
         priceMap.put("클러치", 30000);
     }
 
+    //getter
+    //선택 번호에 상품 이름 반환
     public static String getType(int choice) {
         return typeMap.get(choice);
     }
 
+    //상품에 해당하는 가격 반환
     public static int getPrice(String type) {
         return priceMap.get(type);
     }
