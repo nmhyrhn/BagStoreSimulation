@@ -17,7 +17,7 @@
 ## ⚙️ 주요 기능
 - 가방 선택 (switch + Map을 활용하여 가방 종류 선택)
 - 재질 선택 (switch + Map을 활용하여 가방 재질 선택)
-- 색상 선택 (enum + switch을 활용하여 가장 색상 선택)
+- 색상 선택 (enum + switch을 활용하여 가방 색상 선택)
 - 사이즈 지정 (추상 클래스 BagSize + CustomSize(내부 클래스)로 구현)
 - 주문 및 구매 내역 출력 (OrderHistory에서 최종 구매 내역 출력)
 
