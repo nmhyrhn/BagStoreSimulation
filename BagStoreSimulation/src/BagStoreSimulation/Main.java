@@ -20,8 +20,13 @@ public class Main {
         System.out.println("===가방을 골라주세요.===");
         System.out.println("1-토트백 2-크로스백 3-백팩 4-숄더백 5-클러치 ");
         int typeChoice = sc.nextInt();
+        //정수 입력 받음, 가방 종류 선택 번호
         String type = BagType.getType(typeChoice);
+        //선택 번호를 문자열로 변환
+        //bagType의 getType호출
         int typePrice = BagType.getPrice(type);
+        //선택 가방을 가격으로 변환
+        //BagType의 getPrice 호출
 
         System.out.println(type + "은 " + typePrice + "원 입니다.");
         System.out.println("");

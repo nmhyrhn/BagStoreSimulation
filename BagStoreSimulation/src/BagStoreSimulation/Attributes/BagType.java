@@ -26,11 +26,13 @@ public class BagType {
     //getter
     //선택 번호에 상품 이름 반환
     public static String getType(int choice) {
+        //choice는 입력받은 정수값 -> 가방 문자열로 변환
         return typeMap.get(choice);
     }
 
     //상품에 해당하는 가격 반환
     public static int getPrice(String type) {
+        //type는 입력받은 가방이름 -> 가방 가격으로로 변환
         return priceMap.get(type);
     }
 }

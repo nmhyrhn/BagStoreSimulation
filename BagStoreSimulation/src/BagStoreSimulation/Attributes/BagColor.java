@@ -3,7 +3,7 @@ package src.BagStoreSimulation.Attributes;
 public enum BagColor {
     //필드
     //가방 색상을 나타내는 enum
-    //enum :
+    //enum : 서로 관련된 상수 집합
     BROWN("브라운"),
     WHITE("화이트"),
     BLACK("블랙"),
